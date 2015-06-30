@@ -1,0 +1,81 @@
+<!-- Created on : June 30, 2015
+     Author : Wayne Thomas
+	 Skill.html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wayne Thomas</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="../main.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#PhoneNumber p').hide();
+                $("button").click(function(){
+                    $("#PhoneNumber p").toggle(1000);
+                })
+            });
+        </script>          
+    </head>
+<!--Header###############################################################################-->    
+    <body>
+        <div id="page">
+        <div class="header">
+            <h1>Wayne Thomas</h1>
+            <p>Computer Science Graduate<br />Old Dominion University '14</p>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skill.html">Skills & Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </div>
+<!--Content###############################################################################-->            
+        <div class="skills">
+            <h2 id="heading1">Skills</h2>
+            <img src="../images/graduation.JPG" />
+            <p>Attending Old Dominion University and possessing 3 years and 4 months of 
+               professional IT experience helped Wayne develop the following skills:</p>
+            <ul>
+                <li><span>C++</li>
+                <li><span>HTML/HTML5</li>
+                <li><span>CSS/CSS3</li>
+                <li><span>SQL/MySQL</li>
+                <li><span>PHP</li>
+            </ul>
+            <p>Other skills include:</p>
+            <ul>
+                <li><span>Problem Solving</li>
+                <li><span>Troubleshooting</li>
+                <li><span>Photoshop/Paint.NET</li>
+                <li><span>Microsoft Office</li>
+				<li><span>Computer Networking</li>
+				<li><span>Technical Support & Documentation</li>
+            </ul>
+            <h2 id="heading2">Resume</h2>
+            <p id="resume">Computer Science Resume ( <a href="../files/Resume_WayneThomas.pdf">
+                    <font color="red">PDF</font></a> )</p>
+        </div>
+<!--Footer###############################################################################-->
+        <div class="footer">
+            <div id="footerimg">
+                <a href="mailto:wayne.a.thomas@outlook.com">
+                    <img src="../images/redemail.png" width="35px" height="35px"/></a>
+                <a href="https://www.linkedin.com/in/wathomas">
+                    <img src="../images/redlinkedin.png" width="35px" height="35px"/></a>
+                <button><img src="../images/rediphone.png" width="35px" height="35px" /></button>
+            </div>
+            <div id="PhoneNumber">
+                <p>(516)543-7618</p>
+            </div>
+            <p>
+				wayne.a.thomas@outlook.com <br />
+                &COPY;Programmed and Designed by Wayne Thomas
+            </p>
+        </div>           
+        </div>
+    </body>
+</html>
