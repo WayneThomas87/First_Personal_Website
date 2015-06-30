@@ -1,0 +1,335 @@
+/* 
+    Created on : June 30, 2015
+    Author     : Wayne Thomas
+	Main.CSS
+*/
+
+body {
+    //border-style: solid;
+    background-color: lightgrey;
+}
+.header {
+    //border-style: solid;
+    letter-spacing: .10em;
+    width: 275px;
+    margin: 10px auto 25px auto;
+    text-align: center;
+}
+
+ul li{
+    color: red;
+}
+
+ul li span {
+    color: black;
+}
+
+.header p {
+   margin-top: -20px;
+   line-height: 130%;
+}
+
+#page {
+    //border-style: solid;
+    position: relative;
+    width: 820px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 6px double black;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    //border-style: solid;
+    letter-spacing: 0.1em;
+    margin: auto;
+    width: 700px;
+    padding: 15px;
+    border-top: 2px double darkgrey;
+    border-bottom: 2px double darkgrey;
+    text-align: center;
+}
+
+.navbar li{  
+    //border-style: solid;
+    display: inline; 
+    margin: 0px 5px 0px 5px;
+}
+
+.navbar ul li a {
+    //border-style: solid;
+    display : inline-block;
+    text-align : center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding : 5px;
+    text-decoration: none;
+    color: red;
+    font-size: medium;
+}
+
+a:hover {
+    background-color: lightgrey;
+    font-style: italic;
+}
+
+.about {
+    //border-style: solid;
+    height: 400px;
+    width: 725px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about #first {
+    //border-style: solid;
+    width: 450px;
+    font-weight: normal;
+    line-height: 175%;
+    text-indent: 50px;
+    text-align: justify;
+    float: right;
+    margin-top: 30px;
+}
+
+.about img {
+    position: relative;
+    float: left;
+    border-style: inset;
+    border-color: lightgray;
+}
+
+.footer {
+    clear: both;
+    border-style: outset;
+    margin: 0px 0px -20px -20px;
+    width: 854px;
+    background-color: lightgray;
+}
+
+.footer h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: -15px;
+	font-weight: bold;
+    font-style: italic; 
+	
+}
+
+#footerimg {
+	//border-style: solid;
+    width: 150px;
+    height: 45px;
+    margin: 10px auto 8px auto;
+    padding-left: 40px;
+}
+
+button {
+    border: none !important;
+    outline: 0;
+    background-color: lightgray;
+    margin-left: -8px;
+    cursor: pointer;
+}
+
+.education {
+    //border-style: solid;
+    height: 825px;
+    margin-left: auto;
+    margin-right: auto;
+    //padding: 20px;
+}
+
+.education h2 {
+    text-decoration: underline;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.education #list1 {
+    //border-style: solid;
+    width: 370px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    line-height: 130%;
+}
+
+.education #list2 {
+    //border-style: solid;
+    width: 370px;
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    line-height: 135%;
+}
+
+.education #list3 {
+    //border-style: solid;
+    line-height: 135%;
+    width: 370px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    clear: left;
+    float: left;
+}
+
+.education #list4 {
+    //border-style: solid;
+    line-height: 135%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 370px;
+    float: right;
+}
+
+.education #list5 {
+    //border-style: solid;
+    margin-top: 37px;
+    line-height: 135%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 370px;
+    float: right;
+}
+
+#edudiploma img {
+	
+    border-style: inset;
+    border-color: lightgray;
+    display: block;
+	clear: both;
+    margin: -40px auto 40px auto;
+}
+
+.skills {
+    //border-style: solid;
+    height: 400px;
+    width: 725px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills img {
+    border-style: inset;
+    border-color: lightgray;
+    float: left;
+    margin-top: 8px;
+}
+
+.skills p {
+    //border-style: solid;
+    float: right;
+    width: 480px;
+	margin-right: 50px;
+}
+
+.skills #resume {
+    float: left;
+}
+
+.skills a {
+    color: black;
+}
+
+.skills h2 {
+    text-decoration: underline;
+}
+
+.skills #heading1 {
+    margin-top: 0px;
+}
+
+.skills #heading2 {
+    //border-style: solid;
+    clear: both;
+    margin-top: 370px;
+}
+
+.skills #resume {
+    margin-top: 0px;
+}
+
+.skills ul {
+    //border-style: solid;
+    float: right;
+    width: 430px;
+    margin-top: -5px;
+	margin-right: 50px;
+}
+
+.projects {
+    height: 400px;
+    width: 725px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.projects h4 {
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.projects a {
+    color: black;
+}
+
+.projects ul {
+    margin-left: 10px;
+    margin-top: -10px;
+    line-height: 135%;
+}
+
+.projects1 {
+    height: 400px;
+    width: 725px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: -200px;
+}
+
+.projects1 h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.projects1 h4 {
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.projects1 a {
+    color: black;
+}
+
+.projects1 ul {
+    margin-left: 10px;
+    margin-top: -10px;
+    line-height: 135%;
+}
+
