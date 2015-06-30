@@ -1,0 +1,71 @@
+<!-- Wayne Thomas
+     6/30/2015-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wayne Thomas</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="main.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#PhoneNumber p').hide();
+                $("button").click(function(){
+                    $("#PhoneNumber p").toggle(1000);
+                })
+            });
+        </script>       
+    </head>
+<!--Header###############################################################################-->
+    <body>
+        <div id="page">
+        <div class="header">
+            <h1>Wayne Thomas</h1>
+            <p>Computer Science Graduate<br />Old Dominion University '14</p>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/education.html">Education</a></li>
+                <li><a href="html/skill.html">Skills & Resume</a></li>
+                <li><a href="html/projects.html">Projects</a></li>
+            </ul>
+        </div>
+<!--Content###############################################################################-->
+        <div class="about">
+            <img src="images/DubbT.JPG" alt="Me" width="250px" height="400px" />
+            <p id="first">
+               Wayne is a recent graduate of Old Dominion University with a 
+               Bachelors Degree in Computer Science. Graduating in December
+               of 2014, Wayne is currently looking for a job in the field. 
+               With an Associates Degree in Automotive Technology and a love for
+               vehicles, his dream job is to become a vehicle programmer. His 
+			   interests within computer science include computer networking, 
+			   web development, cybersecurity, and cryptography. Wayne is currently
+			   seeking a job opportunity in one of these fields. For his personal
+			   traits, Wayne is very detail-oriented, affable, creative, and adaptable.
+			   He has the desire, eagerness, and passion to learn new skills. One of 
+			   his goals is to work for an organization that will help him grow 
+			   professionally and enhance his skill-set for his career and the company.
+            </p>
+        </div>
+<!--Footer###############################################################################-->
+        <div class="footer">
+            <div id="footerimg">
+                <a href="mailto:wayne.a.thomas@outlook.com">
+                    <img src="images/redemail.png" width="35px" height="35px"/></a>
+                <a href="https://www.linkedin.com/in/wathomas">
+                    <img src="images/redlinkedin.png" width="35px" height="35px"/></a>
+                <button><img src="images/rediphone.png" width="35px" height="35px" /></button>
+            </div>
+            <div id="PhoneNumber">
+                <p>(516)543-7618</p>
+            </div>
+            <p>
+                &COPY;Programmed and Designed by Wayne Thomas
+            </p>
+        </div>           
+        </div>
+    </body>
+</html>
