@@ -5,11 +5,9 @@
 */
 
 body {
-    //border-style: solid;
     background-color: lightgrey;
 }
 .header {
-    //border-style: solid;
     letter-spacing: .10em;
     width: 275px;
     margin: 10px auto 25px auto;
@@ -30,7 +28,6 @@ ul li span {
 }
 
 #page {
-    //border-style: solid;
     position: relative;
     width: 820px;
     margin: 0px auto;
@@ -40,7 +37,6 @@ ul li span {
 }
 
 .navbar {
-    //border-style: solid;
     letter-spacing: 0.1em;
     margin: auto;
     width: 700px;
@@ -51,13 +47,11 @@ ul li span {
 }
 
 .navbar li{  
-    //border-style: solid;
     display: inline; 
     margin: 0px 5px 0px 5px;
 }
 
 .navbar ul li a {
-    //border-style: solid;
     display : inline-block;
     text-align : center;
     border-right: 1px solid black;
@@ -74,7 +68,6 @@ a:hover {
 }
 
 .about {
-    //border-style: solid;
     height: 400px;
     width: 725px;
     padding: 20px;
@@ -83,7 +76,6 @@ a:hover {
 }
 
 .about #first {
-    //border-style: solid;
     width: 450px;
     font-weight: normal;
     line-height: 175%;
@@ -122,7 +114,6 @@ a:hover {
 }
 
 #footerimg {
-	//border-style: solid;
     width: 150px;
     height: 45px;
     margin: 10px auto 8px auto;
@@ -138,11 +129,9 @@ button {
 }
 
 .education {
-    //border-style: solid;
     height: 825px;
     margin-left: auto;
     margin-right: auto;
-    //padding: 20px;
 }
 
 .education h2 {
@@ -155,7 +144,6 @@ button {
 }
 
 .education #list1 {
-    //border-style: solid;
     width: 370px;
     float: left;
     padding-left: 15px;
@@ -165,7 +153,6 @@ button {
 }
 
 .education #list2 {
-    //border-style: solid;
     width: 370px;
     float: right;
     padding-left: 15px;
@@ -175,7 +162,6 @@ button {
 }
 
 .education #list3 {
-    //border-style: solid;
     line-height: 135%;
     width: 370px;
     padding-left: 15px;
@@ -186,7 +172,6 @@ button {
 }
 
 .education #list4 {
-    //border-style: solid;
     line-height: 135%;
     padding-left: 15px;
     padding-right: 15px;
@@ -196,7 +181,6 @@ button {
 }
 
 .education #list5 {
-    //border-style: solid;
     margin-top: 37px;
     line-height: 135%;
     padding-left: 15px;
@@ -207,7 +191,6 @@ button {
 }
 
 #edudiploma img {
-	
     border-style: inset;
     border-color: lightgray;
     display: block;
@@ -216,7 +199,6 @@ button {
 }
 
 .skills {
-    //border-style: solid;
     height: 400px;
     width: 725px;
     padding: 20px;
@@ -232,7 +214,6 @@ button {
 }
 
 .skills p {
-    //border-style: solid;
     float: right;
     width: 480px;
 	margin-right: 50px;
@@ -255,7 +236,6 @@ button {
 }
 
 .skills #heading2 {
-    //border-style: solid;
     clear: both;
     margin-top: 370px;
 }
@@ -265,7 +245,6 @@ button {
 }
 
 .skills ul {
-    //border-style: solid;
     float: right;
     width: 430px;
     margin-top: -5px;
